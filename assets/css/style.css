@@ -229,11 +229,34 @@ input[type=submit] {
     }
 }
 
+@media screen and (max-width:768) {
+    .body {}
+}
+
 @media screen and (max-width: 640px) {
     .auth-image {
         float: none;
         margin: 0 auto;
         display: block;
         width: 80%;
+    }
+    #masthead {
+        position: static;
+        margin: auto;
+    }
+    #logo {
+        margin: auto;
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    nav {
+        float: left;
+        padding: 20px;
+    }
+    #main-container {
+        padding-top: 20px;
     }
 }
